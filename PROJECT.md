@@ -35,7 +35,7 @@
   * 更新了 `GUIDE.md` 及 `點哥AI全能工具箱.md`，納入對於 `.gitignore` 防漏與 API Key 安全性的詳細說明與指引。
   * 移除 `README.md` 中的「授權條款：MIT License」聲明。
   * 移除 `README.md` 中的作者 Email 聯絡資訊。
-  * 新增「專案初始化」作為啟動專案技能 (`project-init`) 的預設觸發關鍵字。
+  * 在新舊兩專案的所有說明文件（GUIDE.md、點哥AI全能工具箱.md、SKILL.md）中，完整對齊並補齊所有啟動專案的 6 個對話觸發關鍵字（啟動專案、專案啟動、開啟專案、專案初始化、初始化專案、建立專案），防範口語倒裝。
   * 部署全域 CLI 工具（`netlify-cli` 與 `@google/clasp`），並將對話技能 10 (draw) 與 15 (upgrade) 複製至全域技能目錄下以供隨時呼叫。
 * **2026-06-18 重構與發布**：
   * 修改了 Obsidian (11) 與 NotebookLM (02) 的 MCP 設定語法，改為寫入 `mcpServers` 的 AGY2 相容 JSON 物件。
