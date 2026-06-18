@@ -34,6 +34,7 @@
   * 更新了 `GUIDE.md` 及 `點哥AI全能工具箱.md`，納入對於 `.gitignore` 防漏與 API Key 安全性的詳細說明與指引。
   * 移除 `README.md` 中的「授權條款：MIT License」聲明。
   * 移除 `README.md` 中的作者 Email 聯絡資訊。
+  * 新增「專案初始化」作為啟動專案技能 (`project-init`) 的預設觸發關鍵字。
 * **2026-06-18 重構與發布**：
   * 修改了 Obsidian (11) 與 NotebookLM (02) 的 MCP 設定語法，改為寫入 `mcpServers` 的 AGY2 相容 JSON 物件。
   * 將圖片生成技能 (10) 重新設計，改為以 Gemini 的生圖模型 Imagen 3 (NanoBanana) 為主引導，發揮文字渲染與高保真特色。
