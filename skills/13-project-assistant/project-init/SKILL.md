@@ -56,6 +56,45 @@ description: 自動專案助理 — 啟動/初始化專案。建立包含 PROJEC
 * 根據使用者輸入的語言或自定義需求（例如想要 C#、Go、Rust，或指定的檔案夾結構），由 AI 助理動態分析並建立對應的目錄結構與基本的進入點檔案（例如 `main.go` 或 `main.rs`）。
 * 同樣必須產生適用的 `.gitignore`。
 
+### 🛡️ 全方位防禦性 .gitignore 規範
+不論何種專案類型（包含自設專案），建立 `.gitignore` 時，**必須自動寫入**以下防禦性屏蔽，確保隱私安全不外洩：
+```gitignore
+# 環境變數與機密金鑰 (絕對禁止上傳)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.json
+credentials.json
+
+# 系統與編輯器臨時檔案
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# 常見依賴與編譯輸出目錄
+node_modules/
+/dist/
+/build/
+/out/
+__pycache__/
+*.pyc
+.venv/
+venv/
+ENV/
+```
+
 ---
 
 ## 步驟三：自動建立專案管理核心檔案 (相容性關鍵)
