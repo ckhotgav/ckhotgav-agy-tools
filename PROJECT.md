@@ -24,6 +24,7 @@
 - [x] 已完成：系統健康檢查與 doctor 技能測試
 - [x] 已完成：將 ckhotgav-agy-tools 公開儲存庫成功部署至 GitHub
 - [x] 已完成：專案初始化 (project-init) 新增自設模板與全方位安全型 `.gitignore` 機制
+- [x] 已完成：安裝技能 04 (Netlify)、05 (GAS)、10 (生圖引導)、15 (一鍵升級) 至全域技能與本地環境
 
 ---
 
@@ -35,6 +36,7 @@
   * 移除 `README.md` 中的「授權條款：MIT License」聲明。
   * 移除 `README.md` 中的作者 Email 聯絡資訊。
   * 新增「專案初始化」作為啟動專案技能 (`project-init`) 的預設觸發關鍵字。
+  * 部署全域 CLI 工具（`netlify-cli` 與 `@google/clasp`），並將對話技能 10 (draw) 與 15 (upgrade) 複製至全域技能目錄下以供隨時呼叫。
 * **2026-06-18 重構與發布**：
   * 修改了 Obsidian (11) 與 NotebookLM (02) 的 MCP 設定語法，改為寫入 `mcpServers` 的 AGY2 相容 JSON 物件。
   * 將圖片生成技能 (10) 重新設計，改為以 Gemini 的生圖模型 Imagen 3 (NanoBanana) 為主引導，發揮文字渲染與高保真特色。
