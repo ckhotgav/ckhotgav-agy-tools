@@ -47,4 +47,3 @@ AI 助理會自動讀取目錄，詢問你要安裝哪些階段的技能，並�
 * GitHub: https://github.com/ckhotgav
 * Facebook: https://facebook.com/jshpapa
 * Email: thinkclue@gmail.com
-* 授權條款：MIT License
