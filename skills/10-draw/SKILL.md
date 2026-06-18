@@ -1,14 +1,14 @@
 ---
 name: 10-draw
-description: Gemini / nanobanana 生圖 — 免 API 金鑰，直接呼叫內建的 generate_image 生圖。
+description: Gemini / NanoBanana 生圖 — 免 API 金鑰，直接呼叫內建的 generate_image 生圖。
 ---
 
-# 技能 10：Gemini / nanobanana 生成圖片
+# 技能 10：Gemini / NanoBanana 生成圖片
 
 在 **AntiGravity 2** 中，不需要設定任何 API 金鑰，即可直接使用 Google 最強大的生圖引擎。
 
-## 🎨 關於 nanobanana / Imagen 3
-AGY2 內建的生圖功能底層是 Google Imagen 3（社群暱稱 `nanobanana`）。它的最大強項在於：
+## 🎨 關於 NanoBanana / Imagen 3
+AGY2 內建的生圖功能底層是 Google Imagen 3（社群暱稱 `NanoBanana`）。它的最大強項在於：
 1. **精準的文字渲染**：能在圖片招牌、海報中正確顯示你想指定的英文字。
 2. **高畫質與風格多樣性**：包含 3D 渲染、動漫風、寫實攝影等。
 

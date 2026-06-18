@@ -38,7 +38,7 @@
 | **07** | Firebase 資料庫 | 🟡 | Google 雲端 NoSQL 資料庫 |
 | **08** | Ollama 本地AI | 🟡 | 在自己的電腦跑 AI，免網路 |
 | **09** | Gemini 免費API | 🟡 | 申請 Google 免費 AI 密鑰測試 |
-| **10** | 生成圖片 | 🟢 | **AGY2 內建 Gemini / nanobanana 生圖引導** |
+| **10** | 生成圖片 | 🟢 | **AGY2 內建 Gemini / NanoBanana 生圖引導** |
 | **11** | Obsidian 本地筆記 | 🟢 | 連接你的第二大腦 (寫入 mcpServers) |
 | **12** | 知識管理系統設定引導 | 🟢 | 學會整理知識與建立日記範本 |
 | **13** | 專案助理 | 🟢 | 開工、收工與專案初始化 (寫入全域技能) |
@@ -82,11 +82,11 @@
 2. **安全登入**：在終端機手動執行 `nlm login`，完成 Google 帳號授權。
 3. **自動綁定**：對著 AGY2 說「請幫我設定 NotebookLM」，AI 助理會自動在 `C:\Users\user\.gemini\antigravity\mcp_config.json` 中的 `"mcpServers"` 區塊寫入設定，不需要你手動修改 JSON 檔。
 
-### 技能 10：Gemini / nanobanana 生成圖片
+### 技能 10：Gemini / NanoBanana 生成圖片
 在 **AntiGravity 2** 中，生圖變得無比簡單！
-* **免 API Key**：AGY2 內建了 Google 最新的 Imagen 3 引擎（即社群俗稱的 **nanobanana** 模型）。
+* **免 API Key**：AGY2 內建了 Google 最新的 Imagen 3 引擎（即社群俗稱的 **NanoBanana** 模型）。
 * **如何使用**：直接對 AI 說：「幫我畫一張（你的場景描述）的圖片」。
-* ** nanobanana 優勢**：這個模型極擅長在圖片中精準生成英文單字。試試看這個 prompt：「幫我畫一個賽博朋克風的霓虹燈招牌，招牌上寫著大大的 "OPEN" 字樣」，你會對結果感到驚艷！
+* ** NanoBanana 優勢**：這個模型極擅長在圖片中精準生成英文單字。試試看這個 prompt：「幫我畫一個賽博朋克風的霓虹燈招牌，招牌上寫著大大的 "OPEN" 字樣」，你會對結果感到驚艷！
 
 ### 技能 11：Obsidian 連結
 Obsidian 是你的本地「第二大腦」。

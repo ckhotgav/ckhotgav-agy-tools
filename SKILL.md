@@ -23,7 +23,7 @@ description: >
 | `07` | Firebase 資料庫 | Google NoSQL 雲端資料庫設定 |
 | `08` | Ollama 本地AI | 本機 AI 模型下載與測試 |
 | `09` | Gemini 免費API | Google 免費 AI API 申請測試 |
-| `10` | 生成圖片 | Gemini / nanobanana 內建生圖與引導 |
+| `10` | 生成圖片 | Gemini / NanoBanana 內建生圖與引導 |
 | `11` | Obsidian 本地筆記 | 筆記 / Vault / MCPVault 連接設定 |
 | `12` | 知識管理系統設定引導 | 三層結構 / 模板 / 整理知識教學 |
 | `13` | 專案助理 | 開工 / 收工 / 啟動專案 / 全域技能部署 |
