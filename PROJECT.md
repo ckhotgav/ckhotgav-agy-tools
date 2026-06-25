@@ -25,10 +25,16 @@
 - [x] 已完成：將 ckhotgav-agy-tools 公開儲存庫成功部署至 GitHub
 - [x] 已完成：專案初始化 (project-init) 新增自設模板與全方位安全型 `.gitignore` 機制
 - [x] 已完成：安裝技能 04 (Netlify)、05 (GAS)、10 (生圖引導)、15 (一鍵升級) 至全域技能與本地環境
+- [x] 已完成：三個工具包（ckhotgav-agy-tools, ckhotgav-tools, ckhotgav-lazy-pack）整合 Cloudflare 部署功能與安全防護
 
 ---
 
 ## 📝 開發里程碑與技術細節
+* **2026-06-25 整合 Cloudflare 臨時與正常部署及 .gitignore 安全防護**：
+  * **Cloudflare 臨時與正常部署**：更新各工具包部署技能（技能 18 / 12），新增 60 分鐘免登入臨時部署（`--temporary`）與正常帳戶/Token部署說明，並在收工流程中加入互動式部署引導。
+  * **.gitignore 全方位防禦**：各專案之 `.gitignore`（與 `project-init` 範本）全面升級以排除 `.wrangler/`、`wrangler.toml` 及 `wrangler.jsonc`，防止 Cloudflare 設定與帳號快取外洩。
+  * **本機全域技能更新**：同步覆蓋覆蓋本機編輯器全域技能，開發收工時即可直接套用全新的部署選單。
+  * **GitHub 同步發布**：所有變更在嚴格遵守隱私 Email 的保護下，全數成功推送至各自的 GitHub 儲存庫。
 * **2026-06-18 專案初始化功能增強與安全性加強**：
   * 在「啟動專案」中新增了第 5 個選項「其他」，支持使用者自設語言（如 Go, Rust 等）或自定義目錄結構，並由 AI 助理動態分析並建立。
   * 加強了所有初始化專案的 `.gitignore` 安全防護規劃，預設自動屏蔽所有敏感私鑰、環境變數檔案（如 `.env*`）、金鑰檔案（`*.pem`, `*.key`）以及本地 IDE 臨時檔案。
